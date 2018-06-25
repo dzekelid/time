@@ -4,7 +4,7 @@ description: This is a repository of time APIs, self-contained as a Github repos
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/time.png
 created: "2018-02-24"
-modified: "2018-06-20"
+modified: "2018-06-25"
 url: http://time.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -40,12 +40,12 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/knoema/apis.yaml
 - name: Stack Exchange
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/stack-exchange/apis.yaml
-- name: Lykke
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/lykke/apis.yaml
 - name: API Science
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/api-science/apis.yaml
 - name: Datadog
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/datadog/apis.yaml
+- name: Lykke
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/lykke/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/xignite/apis.yaml
 - name: Xignite
@@ -60,12 +60,12 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/xignite/apis.yaml
 - name: Xignite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/xignite/apis.yaml
-- name: ParallelDots
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/paralleldots/apis.yaml
 - name: Eventbrite
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/eventbrite/apis.yaml
 - name: Datumbox
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/datumbox/apis.yaml
+- name: ParallelDots
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/paralleldots/apis.yaml
 - name: Washington Metropolitan Area Transit Authority
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/washington-metropolitan-area-transit-authority/apis.yaml
 - name: GoToMeeting
@@ -76,7 +76,7 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/lufthansa/apis.yaml
 - name: Postmark
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/postmark/apis.yaml
-- name: taxamo
+- name: Taxamo
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/taxamo/apis.yaml
 - name: VictorOps
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/victorops/apis.yaml
@@ -86,14 +86,14 @@ include:
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/botify/apis.yaml
 - name: Geneea
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/geneea/apis.yaml
-- name: Bitly
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/bitly/apis.yaml
-- name: TelAPI
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/telapi/apis.yaml
 - name: EasyCron
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/easycron/apis.yaml
 - name: Instructure
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/instructure/apis.yaml
+- name: Bitly
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/bitly/apis.yaml
+- name: TelAPI
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/telapi/apis.yaml
 - name: NewsWhip
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/apis.yaml
 - name: ClimaCell
