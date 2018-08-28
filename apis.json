@@ -8,21 +8,6 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
-			"name": "Xignite",
-			"x-api-slug": "xignite",
-			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
-			"humanURL": "http://www.xignite.com",
-			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/xignite/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "Pingdom",
 			"x-api-slug": "pingdom",
 			"description": "Monitor your websites availability and performance for free with Pingdom and always be the first to know when your website is down. No installation required.",
@@ -53,21 +38,6 @@
 			]
 		},
 		{
-			"name": "Instructure",
-			"x-api-slug": "instructure",
-			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
-			"humanURL": "http://instructure.com",
-			"baseURL": "https://canvas.instructure.com//api/v1",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/instructure/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "TimeZoneDB",
 			"x-api-slug": "timezonedb",
 			"description": "Provides world time zone database download and API access.",
@@ -83,77 +53,17 @@
 			]
 		},
 		{
-			"name": "TelAPI",
-			"x-api-slug": "telapi",
-			"description": "Zang offers business communications tools & voice app development platforms that bring innovation and ease to unified communications & collaboration solutions.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg",
-			"humanURL": "http://www.telapi.com",
-			"baseURL": "http://api.telapi.com/v2/",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/telapi/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Timr",
-			"x-api-slug": "timr",
-			"description": "Die digitale Zeiterfassung statt Excel und Papier - Professionell und Einfach, Fr Arbeitszeit, Urlaubsverwaltung, Projektzeiten. Auf Knopfdruck auswerten. Jetzt kostenlos testen!",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1367-timr.jpg",
-			"humanURL": "http://www.timr.com/tour/api",
+			"name": "Timeanddate.com",
+			"x-api-slug": "timeanddate-com",
+			"description": "Current Time (World Clock) and online and printable Calendars for countries worldwide. Find the best time for web meetings (Meeting Planner) or use the Time and Date Converters. Online services and Apps available for iPhone, iPad, and Android.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1791-timeanddate-com.jpg",
+			"humanURL": "https://timeanddate.com/",
 			"baseURL": "https:///",
 			"tags": "Time",
 			"properties": [
 				{
 					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/timr/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Okta",
-			"x-api-slug": "okta",
-			"description": "Provide secure identity management and single sign-on to any application, whether in the cloud, on-premises or on a mobile device for your employees, partners and customers with Okta.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg",
-			"humanURL": "https://www.okta.com",
-			"baseURL": "https://example.com//api/v1",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/okta/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Intuit",
-			"x-api-slug": "intuit",
-			"description": "See how the power of Intuit Giants can work for you by joining the over 46 million people already using TurboTax, QuickBooks and Mint to power their financial prosperity.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/9544-intuit.jpg",
-			"humanURL": "https://intuit.com",
-			"baseURL": "https://DefaultParameterValue//v3/company/DefaultParameterValue",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/intuit/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "NewsWhip",
-			"x-api-slug": "newswhip",
-			"description": "Understand what social media content resonates with audiences. Centralize your social media monitoring and analytics to discover whats driving engagement.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg",
-			"humanURL": "https://www.newswhip.com/",
-			"baseURL": "https://api.newswhip.com/v1/",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/openapi.md"
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/timeanddate-com/openapi.md"
 				}
 			]
 		},
@@ -169,36 +79,6 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/taxamo/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Aylien",
-			"x-api-slug": "aylien",
-			"description": "Text Analysis API | Natural Language Processing",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20034-aylien.jpg",
-			"humanURL": "http://aylien.com/",
-			"baseURL": "https://api.newsapi.aylien.com//api/v1",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/aylien/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "HERE",
-			"x-api-slug": "here",
-			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
-			"humanURL": "https://developer.here.com",
-			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/here/openapi.md"
 				}
 			]
 		},
@@ -293,21 +173,6 @@
 			]
 		},
 		{
-			"name": "Rebilly",
-			"x-api-slug": "rebilly",
-			"description": "",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
-			"humanURL": "https://www.rebilly.com",
-			"baseURL": "https://api.rebilly.com//v2.1",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/rebilly/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "Botify",
 			"x-api-slug": "botify",
 			"description": "We are passionate about SEO. Botify offers unparalleled insights into your websites SEO through crawl data and log analysis.    Optimize your website and see the organic traffic results youve been seeking. Founded in 2012, Botify is a SaaS SEO platfo...",
@@ -319,21 +184,6 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/botify/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "GitLab",
-			"x-api-slug": "gitlab",
-			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
-			"humanURL": "http://gitlab.com",
-			"baseURL": "https://localhost:3000//api",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/gitlab/openapi.md"
 				}
 			]
 		},
@@ -353,21 +203,6 @@
 			]
 		},
 		{
-			"name": "LiveChat",
-			"x-api-slug": "livechat",
-			"description": "LiveChat is an offline customer service software with live support, help desk software, and web analytics capabilities.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28877-developers-livechatinc-com.jpg",
-			"humanURL": "https://www.livechatinc.com/",
-			"baseURL": "https://api.livechatinc.com//",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/livechat/openapi.md"
-				}
-			]
-		},
-		{
 			"name": "Dezrez",
 			"x-api-slug": "dezrez",
 			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
@@ -381,44 +216,10 @@
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/dezrez/openapi.md"
 				}
 			]
-		},
-		{
-			"name": "Coord",
-			"x-api-slug": "coord",
-			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png",
-			"humanURL": "https://coord.co",
-			"baseURL": "https://api.coord.co//v1/users",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/coord/openapi.md"
-				}
-			]
-		},
-		{
-			"name": "Xibo",
-			"x-api-slug": "xibo",
-			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
-			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
-			"humanURL": "http://www.xibo.org.uk",
-			"baseURL": "https:////api",
-			"tags": "Time",
-			"properties": [
-				{
-					"type": "x-openapi-spec",
-					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/xibo/openapi.md"
-				}
-			]
 		}
 	],
 	"tags": "Time",
 	"include": [
-		{
-			"name": "Xignite",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/xignite/apis.yaml"
-		},
 		{
 			"name": "Pingdom",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apis.yaml"
@@ -428,44 +229,16 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/apis.yaml"
 		},
 		{
-			"name": "Instructure",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/instructure/apis.yaml"
-		},
-		{
 			"name": "TimeZoneDB",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/timezonedb/apis.yaml"
 		},
 		{
-			"name": "TelAPI",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/telapi/apis.yaml"
-		},
-		{
-			"name": "Timr",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/timr/apis.yaml"
-		},
-		{
-			"name": "Okta",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/okta/apis.yaml"
-		},
-		{
-			"name": "Intuit",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/intuit/apis.yaml"
-		},
-		{
-			"name": "NewsWhip",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/apis.yaml"
+			"name": "Timeanddate.com",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/timeanddate-com/apis.yaml"
 		},
 		{
 			"name": "Taxamo",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/taxamo/apis.yaml"
-		},
-		{
-			"name": "Aylien",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/aylien/apis.yaml"
-		},
-		{
-			"name": "HERE",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/here/apis.yaml"
 		},
 		{
 			"name": "AWS Storage Gateway Service",
@@ -492,36 +265,16 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/entertainment-express/apis.yaml"
 		},
 		{
-			"name": "Rebilly",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/rebilly/apis.yaml"
-		},
-		{
 			"name": "Botify",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/botify/apis.yaml"
-		},
-		{
-			"name": "GitLab",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/gitlab/apis.yaml"
 		},
 		{
 			"name": "LogMeIn",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/logmein/apis.yaml"
 		},
 		{
-			"name": "LiveChat",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/livechat/apis.yaml"
-		},
-		{
 			"name": "Dezrez",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/dezrez/apis.yaml"
-		},
-		{
-			"name": "Coord",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/coord/apis.yaml"
-		},
-		{
-			"name": "Xibo",
-			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/xibo/apis.yaml"
 		}
 	]
 }

@@ -12,53 +12,6 @@ modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Jira Cloud REST API - Get selected time tracking provider
-  x-api-slug: api2configurationtimetracking-get
-  description: "Returns the time tracking provider that is currently selected. Note
-    that if time tracking is disabled, then a successful but empty response is returned.
-    \ \n  \n**[Permissions](https://developer.atlassian.com/cloud/jira/platform/rest/#permissions)
-    required:** Jira administration (that is, member of the _administrators_ [group](https://confluence.atlassian.com/x/24xjL))."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetracking-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetracking-get-openapi.md
-- name: Jira Cloud REST API - Select time tracking provider
-  x-api-slug: api2configurationtimetracking-put
-  description: "Selects a time tracking provider.  \n  \n**[Permissions](https://developer.atlassian.com/cloud/jira/platform/rest/#permissions)
-    required:** Jira administration (that is, member of the _administrators_ [group](https://confluence.atlassian.com/x/24xjL))."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetracking-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetracking-put-openapi.md
-- name: Jira Cloud REST API - Disable time tracking
-  x-api-slug: api2configurationtimetracking-delete
-  description: "Disables time tracking.  \n  \n**[Permissions](https://developer.atlassian.com/cloud/jira/platform/rest/#permissions)
-    required:** Jira administration (that is, member of the _administrators_ [group](https://confluence.atlassian.com/x/24xjL))."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetracking-delete-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetracking-delete-openapi.md
 - name: Jira Cloud REST API - Get all time tracking providers
   x-api-slug: api2configurationtimetrackinglist-get
   description: "Returns all time tracking providers. By default, Jira only has one
@@ -79,38 +32,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetrackinglist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetrackinglist-get-openapi.md
-- name: Jira Cloud REST API - Get time tracking settings
-  x-api-slug: api2configurationtimetrackingoptions-get
-  description: "Returns the time tracking settings. This includes settings such as
-    the time format, default time unit, and others. For more information, see [Configuring
-    time tracking](https://confluence.atlassian.com/x/qoXKM).  \n  \n**[Permissions](https://developer.atlassian.com/cloud/jira/platform/rest/#permissions)
-    required:** Jira administration (that is, member of the _administrators_ [group](https://confluence.atlassian.com/x/24xjL))."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetrackingoptions-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetrackingoptions-get-openapi.md
-- name: Jira Cloud REST API - Set time tracking settings
-  x-api-slug: api2configurationtimetrackingoptions-put
-  description: "Sets the time tracking settings.  \n  \n**[Permissions](https://developer.atlassian.com/cloud/jira/platform/rest/#permissions)
-    required:** Jira administration (that is, member of the _administrators_ [group](https://confluence.atlassian.com/x/24xjL))."
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
-  humanURL: http://atlassian.com/
-  baseURL: https:////
-  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
-    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
-    API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetrackingoptions-put-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/atlassian/api2configurationtimetrackingoptions-put-openapi.md
 - name: Jira Cloud REST API - Get all permission schemes
   x-api-slug: api2permissionscheme-get
   description: |-

@@ -1,8 +1,8 @@
 swagger: "2.0"
-x-collection-name: Avaza
+x-collection-name: Timeanddate.com
 x-complete: 1
 info:
-  title: Avaza
+  title: Timeanddate.com
   version: 1.0.0
 schemes:
 - http
