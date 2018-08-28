@@ -7,37 +7,74 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdo
 x-kinRank: "7"
 x-alexaRank: "5876"
 tags: Time
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Servertime API Get Current Server Time
-  x-api-slug: servertime-api
+- name: Servertime API - Get Current Server Time
+  x-api-slug: apiversionservertime-get
   description: Get the current time of the API server.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
-  baseURL: |-
-    https://api.pingdom.com///
-        /api/{version}/servertime
-  tags: Servertime
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apiversionservertime-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apiversionservertime-get-openapi.md
-- name: Servertime API
-  x-api-slug: servertime-api
-  description: Monitor your websites availability and performance for free with Pingdom
-    and always be the first to know when your website is down. No installation required.
+- name: Summary API - Get A Response Time / Uptime Average
+  x-api-slug: apiversionsummary-averagecheckid-get
+  description: Get the average time / uptime value for a specified check and time
+    period.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
   humanURL: http://www.pingdom.com
   baseURL: https://api.pingdom.com//
-  tags: Time
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apiversionsummary-averagecheckid-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apiversionsummary-averagecheckid-get-openapi.md
+- name: Summary API - Get Response Time Averages For Each Hour Of The Day
+  x-api-slug: apiversionsummary-hoursofdaycheckid-get
+  description: Returns the average response time for each hour of the day (0-23) for
+    a specific check over a selected time period. I.e. it shows you what an average
+    day looks like during that time period.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apiversionsummary-hoursofdaycheckid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apiversionsummary-hoursofdaycheckid-get-openapi.md
+- name: Summary API - Get Intervals of Average Response Time and Uptime During a Given
+    Interval
+  x-api-slug: apiversionsummary-performancecheckid-get
+  description: |-
+    For a given interval in time, return a list of sub intervals with the given resolution. Useful for generating graphs. A sub interval may be a week,
+         a day or an hour depending on the choosen resolution.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg
+  humanURL: http://www.pingdom.com
+  baseURL: https://api.pingdom.com//
+  tags: Monitoring, Performance, SaaS, Technology, internet, Service API, Relative
+    Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apiversionsummary-performancecheckid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/pingdom/apiversionsummary-performancecheckid-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://pinboard.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://pingdom.stack.network
 - type: x-base
   url: https://api.pingdom.com
 - type: x-blog

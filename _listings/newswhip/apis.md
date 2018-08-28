@@ -7,59 +7,55 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-news
 x-kinRank: "8"
 x-alexaRank: "97323"
 tags: Time
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/apis.md
 specificationVersion: "0.14"
 apis:
-- name: News Whip API Local
-  x-api-slug: news-whip-api
+- name: News Whip API - Local
+  x-api-slug: localcityalltime-period-get
   description: Search local news.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg
   humanURL: https://www.newswhip.com/
-  baseURL: https://api.newswhip.com/v1//local/{city}/All/{time_period}
-  tags: News,Local,City,Time,Period
+  baseURL: https://api.newswhip.com/v1/
+  tags: News, News, News API, Target, Stack Network, SaaS, Technology, internet, Mobile,
+    API Provider, Profiles, Publish, General Data, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/localcityalltime-period-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/localcityalltime-period-get-openapi.md
-- name: News Whip API Publisher
-  x-api-slug: news-whip-api
+- name: News Whip API - Publisher
+  x-api-slug: publisherpublishertime-period-get
   description: Search news by publisiher.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg
   humanURL: https://www.newswhip.com/
-  baseURL: https://api.newswhip.com/v1//publisher/{publisher}/{time_period}
-  tags: News,Publisher,Publisher,Time,Period
+  baseURL: https://api.newswhip.com/v1/
+  tags: News, News, News API, Target, Stack Network, SaaS, Technology, internet, Mobile,
+    API Provider, Profiles, Publish, General Data, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/publisherpublishertime-period-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/publisherpublishertime-period-get-openapi.md
-- name: News Whip API Region
-  x-api-slug: news-whip-api
+- name: News Whip API - Region
+  x-api-slug: regionregioncategorytime-period-get
   description: Search news by region
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg
   humanURL: https://www.newswhip.com/
-  baseURL: https://api.newswhip.com/v1//region/{region}/{category}/{time_period}
-  tags: News,Region,Region,Category,Time,Period
+  baseURL: https://api.newswhip.com/v1/
+  tags: News, News, News API, Target, Stack Network, SaaS, Technology, internet, Mobile,
+    API Provider, Profiles, Publish, General Data, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/regionregioncategorytime-period-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/regionregioncategorytime-period-get-openapi.md
-- name: News Whip API
-  x-api-slug: news-whip-api
-  description: Understand what social media content resonates with audiences. Centralize
-    your social media monitoring and analytics to discover whats driving engagement.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg
-  humanURL: https://www.newswhip.com/
-  baseURL: https://api.newswhip.com/v1/
-  tags: Time
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/newswhip/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://newscred.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://newswhip.stack.network
 - type: x-authentication
   url: http://www.newswhip.com/api-widgets#authentication
 - type: x-base

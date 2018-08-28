@@ -7,37 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxa
 x-kinRank: "8"
 x-alexaRank: "795977"
 tags: Time
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/taxamo/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Taxamo Settlement Stats Over Time
-  x-api-slug: taxamo
+- name: Taxamo - Settlement Stats Over Time
+  x-api-slug: apiv1statssettlementdaily-get
   description: Settlement stats over time.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
   humanURL: https://www.taxamo.com/
-  baseURL: https://api.taxamo.com////api/v1/stats/settlement/daily
-  tags: Settlement,Stats,Over,Time
+  baseURL: https://api.taxamo.com//
+  tags: Taxes, VAT, Target, Stack Network, Taxes, Relative Data, Service API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/taxamo/apiv1statssettlementdaily-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/taxamo/apiv1statssettlementdaily-get-openapi.md
-- name: Taxamo
-  x-api-slug: taxamo
-  description: 'We make global digital VAT/GST compliance possible. #DigitalTax #DigiTax
-    #TaxTrends'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18644-taxamo.jpg
-  humanURL: https://www.taxamo.com/
-  baseURL: https://api.taxamo.com//
-  tags: Time
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/time/master/_listings/taxamo/openapi.md
 x-common:
 - type: x-website
   url: https://www.taxamo.com/
+- type: x-api-gallery
+  url: http://system.award.management.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://taxamo.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/taxamo-eu-vat-compliance
 - type: x-documentation
